@@ -892,6 +892,10 @@ header .button_request_mobile {
 	outline: none;
 }
 
+.SEO .title{
+	text-align: left;
+}
+
 .input_request {
 	margin: 5px 0;
 	padding: 10px 10px 10px 40px;
