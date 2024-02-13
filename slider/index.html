@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang='ru'>
+
+<head>
+	<meta charset='UTF-8' />
+	<meta http-equiv='X-UA-Compatible' content='IE=edge' />
+	<meta name='viewport' content='width=device-width, initial-scale=1.0' />
+	<link rel="stylesheet" href="./assets/style/style.css">
+	<link rel="stylesheet" href="./assets/font/stylesheet.css">
+	<link rel="stylesheet" href="./assets/style/swiper-slider.css">
+	<title>Slider</title>
+</head>
+
+<body>
+	<div id='request_id' class='modal'>
+		<div class="request">
+			<span class='close'>&times;</span>
+			<h3>Оставить заявку</h3>
+			<p class="descriptions">Мы свяжемся с Вами в ближайшее время</p>
+			<form action="">
+				<div>
+					<img src="./assets/img/avatar.png" alt="">
+					<input class="input_request" type="text" name="" placeholder="Ваше имя *" id="">
+				</div>
+				<div>
+					<img src="./assets/img/phone_form.png" alt="">
+					<input class="input_request" type="text" name="" placeholder="Телефон *" id="">
+				</div>
+				<div>
+					<img style="top: 17px;" src="./assets/img/question.png" alt="">
+					<textarea style="height: 80px;" class="input_request" type="text" name="" placeholder="Что Вас интересует?"
+						id=""></textarea>
+				</div>
+				<input class="send_request" type="button" value="Отправить">
+				<p class="few_desk">Нажимая на кнопку "Отправить",<br>Вы даете Согласие на <a href="#">обработку персональных
+						данных</a></p>
+			</form>
+		</div>
+	</div>
+
+	<div class="hamburger-menu"> <input id="menu__toggle" type="checkbox"> <label class="menu__btn" for="menu__toggle">
+			<span></span> </label>
+		<div class="menu__box">
+			<div class="logo_mobile simple_flex align_flex">
+				<img class="white_logo" src="./assets/img/logo.png" width="35px" alt="">
+				<h1>Переславский завод
+					полимеров</h1>
+			</div>
+			<button class="button_request button_request_mobile"><img src="./assets/img/phone.png" alt=""></button>
+			<h4>Меню сайта</h4>
+			<ul>
+				<li><a class="menu__item" href="../">Контрактное производство</a></li>
+				<li><a class="menu__item" href="../Page_2.html">Производство</a></li>
+				<li><a class="menu__item" href="#">Наша продукция</a></li>
+				<li><a class="menu__item" href="#">О заводе</a></li>
+				<li><a class="menu__item" href="#">Оптовикам и сетям</a></li>
+				<li><a class="menu__item" href="#">Поставщикам</a></li>
+				<li><a class="menu__item" href="#">Соискателям</a></li>
+				<li><a class="menu__item" href="#">Контакты</a></li>
+			</ul>
+			<div class="level_2__contact simple_flex align_flex">
+				<div class="phone simple_flex align_flex">
+					<img src="./assets/img/phone_circle_orange.png" alt="Иконка телефона">
+					<p>Пн-пт: с 09:00 до 19:00<br>
+						<b>+7 (495) 085-01-41</b>
+					</p>
+				</div>
+				<div class="email simple_flex align_flex">
+					<img src="./assets/img/email_circle_orange.png" alt="Иконка телефона">
+					<p>Пишите 24/7<br>
+						<b>info@pzpolimer.ru</b>
+					</p>
+				</div>
+			</div>
+			<div class="level_1__left simple_flex">
+				<img width="12" height="18" style="margin-right: 5px;" src="./assets/img/place.png"
+					alt="Место положение иконка">
+				<p><b style="color: #292b2c;">Адрес производства: 152000</b>, Ярославская обл., Переславский р-н, д.
+					Берендеево,
+					ул. Некрасова 13а</p>
+			</div>
+		</div>
+	</div>
+	<div class="main_slider">
+		<div class="swiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide"
+					style="background-image: url('./assets/img/slider/img_bg_1.png'); background-size: cover; background-position: center center;">
+					<div class="wrapper_slider_content">
+						<div class="top_content">
+							<div class="text_box">
+								<div class="logo_block">
+									<img src="./assets/img/logo.png" alt="Логотип">
+									<div>
+										<h2>Переславский завод
+											полимеров</h2>
+										<p>крупносерийное производство
+											изделий из пластмасс</p>
+									</div>
+								</div>
+								<div class="main_text">
+									<div class="snoska">
+										<p id="title_slider">Производим изделия из пластмасс по средствам пресс-формы на ТПА<span
+												id="icon_info"></span><span id="TPA_info"><b>Термопластавтомат (ТПА)</b> - инжекционно-литьевая
+												машина для изготовления деталей из термопластов
+												методом литья под давлением. Технология литья идеально соответсвует массовому производству
+												изделий сложной формы, важным требованием к которой является точное соответсвие размерам. Более
+												трети штучных полимерных изделий производится с использованием ТПА.</span></p>
+									</div>
+									<p>Производим и продаем более 40 наименований хозяйственных товаров, которые можно найти на полках
+										российских и международных сетевых гипермаркетов</p>
+									<a href="../" style="display: block; width: fit-content; text-decoration: none;" class="more_button">Узнать подробнее<svg style="margin-left: 25px;" width="20"
+											viewBox="0 0 512 248" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path style="transition: all ease 0.6s;" fill-rule="evenodd" clip-rule="evenodd"
+												d="M379.5 1.896C374.844 4.051 370.576 8.31301 369.064 12.315C367.568 16.273 367.741 24.469 369.4 28.282C370.178 30.07 386.84 47.493 406.905 67.5L443.011 103.5L228.255 104L13.5 104.5L9.683 106.873C7.583 108.178 4.658 111.071 3.183 113.3C0.948 116.677 0.5 118.464 0.5 124C0.5 129.536 0.948 131.323 3.183 134.7C4.658 136.929 7.583 139.822 9.683 141.127L13.5 143.5L228.255 144L443.011 144.5L406.905 180.5C386.84 200.507 370.178 217.93 369.4 219.718C367.741 223.531 367.568 231.727 369.064 235.685C372.722 245.368 385.751 250.62 395.209 246.224C399.536 244.212 505.607 139.978 509.189 134.216C512.62 128.699 512.475 118.827 508.885 113.402C504.724 107.114 399.465 3.75201 395.211 1.77601C390.389 -0.463993 384.5 -0.418998 379.5 1.896Z"
+												fill="white" />
+										</svg>
+									</a>
+								</div>
+								<div class="footer_content">
+									<div class="left_content">
+										<h3>Изготовление продукции</h3>
+										<p>© 2020 Переславский Завод Полимеров</p>
+										<a href="#">Политика конфиденциальности</a>
+										<a href="#">Карта сайта</a>
+									</div>
+								</div>
+							</div>
+							<img class="image_slider_right" src="./assets/img/slider/slider_img_1.png" alt="Человек">
+							<img class="mobile_image_slider" src="./assets/img/slider/slider_img_modile_1.png" alt="Человек">
+						</div>
+						<div class="left_block_bg" style="background: #01163b;"></div>
+						<div class="right_bottom_content">
+							<div class="slider_contact" style="margin-right: 50px;">
+								<img width="23" height="17" src="./assets/img/mail.png" alt="email">
+								<div class="contact_text">
+									<p>info@pzpolimer.ru</p>
+									<span style="color: #e09423">Пишите:</span>
+									<span>круглосуточно</span>
+								</div>
+							</div>
+							<div class="slider_contact" style="padding-right: 150px;">
+								<img width="18" height="19" src="./assets/img/phone.png" alt="email">
+								<div class="contact_text">
+									<p>+7 (495) 085-01-41</p>
+									<span style="color: #e09423">Звоните:</span>
+									<span>Пн-Пт с 9:00 до 19:00</span>
+								</div>
+							</div>
+						</div>
+						<div class="navigation_header">
+							<a href="../">Контрактное производство</a>
+							<a href="../Page_2.html">Производство</a>
+							<a href="#">Наша продукция</a>
+							<a href="#">Контакты</a>
+						</div>
+						<button class="button_request">Оставить заявку</button>
+						<button class="button_request button_request_mobile"><img src="./assets/img/phone.png" alt=""></button>
+						<img class="elips_slider" src="./assets/img/slider/elips_1.png" alt="elips">
+					</div>
+				</div>
+				<div class="swiper-slide"
+					style="background: url('./assets/img/slider/img_bg_2.png') center center; background-size: cover;">
+					<div class="wrapper_slider_content">
+						<div class="top_content">
+							<div class="text_box">
+								<div class="logo_block">
+									<img src="./assets/img/logo.png" alt="Логотип">
+									<div>
+										<h2>Переславский завод
+											полимеров</h2>
+										<p style="width: 120%;">Контрактное / Давальческое производство</p>
+									</div>
+								</div>
+								<div class="main_text">
+									<h1>Производство изделий из пластмасс под заказ</h1>
+									<p>Производим на контрактной основе любые изделия весом до 2 кг из: полиамида, полипропилена,
+										полистирола, сэвилена, поливинилхлорида и других материалов</p>
+									<a href="../Page_2.html" style="display: block; width: fit-content; text-decoration: none;" class="more_button">Узнать подробнее<svg style="margin-left: 25px;" width="20"
+											viewBox="0 0 512 248" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path style="transition: all ease 0.6s;" fill-rule="evenodd" clip-rule="evenodd"
+												d="M379.5 1.896C374.844 4.051 370.576 8.31301 369.064 12.315C367.568 16.273 367.741 24.469 369.4 28.282C370.178 30.07 386.84 47.493 406.905 67.5L443.011 103.5L228.255 104L13.5 104.5L9.683 106.873C7.583 108.178 4.658 111.071 3.183 113.3C0.948 116.677 0.5 118.464 0.5 124C0.5 129.536 0.948 131.323 3.183 134.7C4.658 136.929 7.583 139.822 9.683 141.127L13.5 143.5L228.255 144L443.011 144.5L406.905 180.5C386.84 200.507 370.178 217.93 369.4 219.718C367.741 223.531 367.568 231.727 369.064 235.685C372.722 245.368 385.751 250.62 395.209 246.224C399.536 244.212 505.607 139.978 509.189 134.216C512.62 128.699 512.475 118.827 508.885 113.402C504.724 107.114 399.465 3.75201 395.211 1.77601C390.389 -0.463993 384.5 -0.418998 379.5 1.896Z"
+												fill="white" />
+										</svg>
+									</a>
+								</div>
+								<div class="footer_content">
+									<div class="left_content">
+										<h3>Контрактное производство</h3>
+										<p>© 2020 Переславский Завод Полимеров</p>
+										<a href="#">Политика конфиденциальности</a>
+										<a href="#">Карта сайта</a>
+									</div>
+								</div>
+							</div>
+							<img class="image_slider_right" src="./assets/img/slider/slider_img_2.png" alt="Человек">
+							<img class="mobile_image_slider" src="./assets/img/slider/slider_img_modile_2.png" alt="Человек">
+						</div>
+						<div class="left_block_bg" style="background: #072d5a;"></div>
+						<div class="right_bottom_content">
+							<div class="slider_contact" style="margin-right: 50px;">
+								<img width="23" height="17" src="./assets/img/mail.png" alt="email">
+								<div class="contact_text">
+									<p>info@pzpolimer.ru</p>
+									<span style="color: #e09423">Пишите:</span>
+									<span>круглосуточно</span>
+								</div>
+							</div>
+							<div class="slider_contact" style="padding-right: 150px;">
+								<img width="18" height="19" src="./assets/img/phone.png" alt="email">
+								<div class="contact_text">
+									<p>+7 (495) 085-01-41</p>
+									<span style="color: #e09423">Звоните:</span>
+									<span>Пн-Пт с 9:00 до 19:00</span>
+								</div>
+							</div>
+						</div>
+						<div class="navigation_header">
+							<a href="#">Контрактное производство</a>
+							<a href="#">Производство</a>
+							<a href="#">Наша продукция</a>
+							<a href="#">Контакты</a>
+						</div>
+						<button class="button_request">Оставить заявку</button>
+						<button class="button_request button_request_mobile"><img src="./assets/img/phone.png" alt=""></button>
+						<img class="elips_slider" src="./assets/img/slider/elips_2.png" alt="elips">
+					</div>
+				</div>
+				<div class="swiper-slide"
+					style="background: url('./assets/img/slider/img_bg_3.png') center center; background-size: cover;">
+					<div class="wrapper_slider_content">
+						<div class="top_content">
+							<div class="text_box">
+								<div class="logo_block">
+									<img id="logo_red" src="./assets/img/logo_amit.png" alt="Логотип АМИТ">
+									<div>
+										<h2 class="atim_title">Производство и оптовая продажа товаров народного потребления</h2>
+									</div>
+								</div>
+								<div class="main_text">
+									<h1>Оптовая продажа товаров народного потребления</h1>
+									<p>Оптовая торговля товарами народного потребления: самоклеющаяся пленка, напольные покрытия, товары
+										для ванной и туалета, скатерти и другие хозяйственные товары</p>
+									<button class="more_button" id="more_button_atim">Узнать подробнее<svg style="margin-left: 25px;"
+											width="20" viewBox="0 0 512 248" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path style="transition: all ease 0.6s;" fill-rule="evenodd" clip-rule="evenodd"
+												d="M379.5 1.896C374.844 4.051 370.576 8.31301 369.064 12.315C367.568 16.273 367.741 24.469 369.4 28.282C370.178 30.07 386.84 47.493 406.905 67.5L443.011 103.5L228.255 104L13.5 104.5L9.683 106.873C7.583 108.178 4.658 111.071 3.183 113.3C0.948 116.677 0.5 118.464 0.5 124C0.5 129.536 0.948 131.323 3.183 134.7C4.658 136.929 7.583 139.822 9.683 141.127L13.5 143.5L228.255 144L443.011 144.5L406.905 180.5C386.84 200.507 370.178 217.93 369.4 219.718C367.741 223.531 367.568 231.727 369.064 235.685C372.722 245.368 385.751 250.62 395.209 246.224C399.536 244.212 505.607 139.978 509.189 134.216C512.62 128.699 512.475 118.827 508.885 113.402C504.724 107.114 399.465 3.75201 395.211 1.77601C390.389 -0.463993 384.5 -0.418998 379.5 1.896Z"
+												fill="white" />
+										</svg>
+									</button>
+								</div>
+								<div class="footer_content">
+									<div class="left_content" id="left_content_atim">
+										<h3>Оптовая торговля</h3>
+										<p>© 2020 Переславский Завод Полимеров</p>
+										<a href="#">Политика конфиденциальности</a>
+										<a href="#">Карта сайта</a>
+									</div>
+								</div>
+							</div>
+							<img class="image_slider_right" src="./assets/img/slider/slider_img_3.png" alt="Компьютер и телефон">
+							<img class="mobile_image_slider" src="./assets/img/slider/slider_img_modile_3.png"
+								alt="Компьютер и телефон">
+						</div>
+						<div class="left_block_bg" style="background: #c40707;"></div>
+						<div class="right_bottom_content">
+							<div class="slider_contact" style="margin-right: 50px;">
+								<img width="23" height="17" src="./assets/img/mail.png" alt="email">
+								<div class="contact_text">
+									<p>info@pzpolimer.ru</p>
+									<span style="color: #f65252">Пишите:</span>
+									<span>круглосуточно</span>
+								</div>
+							</div>
+							<div class="slider_contact" style="padding-right: 150px;">
+								<img width="18" height="19" src="./assets/img/phone.png" alt="email">
+								<div class="contact_text">
+									<p>+7 (495) 085-01-41</p>
+									<span style="color: #f65252">Звоните:</span>
+									<span>Пн-Пт с 9:00 до 19:00</span>
+								</div>
+							</div>
+						</div>
+						<div class="navigation_header" id="navigation_header_atim">
+							<a href="#">Контрактное производство</a>
+							<a href="#">Производство</a>
+							<a href="#">Наша продукция</a>
+							<a href="#">Контакты</a>
+						</div>
+						<button class="button_request" id="button_request_atim">Оставить заявку</button>
+						<button class="button_request button_request_mobile"><img src="./assets/img/phone.png" alt=""></button>
+						<img class="elips_slider" src="./assets/img/slider/elips_3.png" alt="elips">
+					</div>
+				</div>
+			</div>
+			<div class="navigation_block">
+				<div class="block_absolute">
+					<!-- Add Arrows -->
+					<div class="swiper-button-next"></div>
+					<div class="swiper-button-prev"></div>
+				</div>
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+		</div>
+	</div>
+	<script src="./assets/js/swiper-slider.js"></script>
+	<script src="./assets/js/jquery.min.js"></script>
+	<script src="./assets/js/script.js"></script>
+</body>
+
+</html>
